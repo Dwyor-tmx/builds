@@ -57,9 +57,9 @@ fi
 # The name of the Kernel, to name the ZIP
 if [ $KSU = 1 ]
 then
-   ZIPNAME="SantuyKernel-KSU-$VER"
+   ZIPNAME="NebulaKernel-KSU-$VER"
 else
-	ZIPNAME="SantuyKernel-NONKSU-$VER"
+	ZIPNAME="NebulaKernel-NONKSU-$VER"
 fi
 
 # Build Author
@@ -191,7 +191,7 @@ WAKTU=$(date +"%F-%S")
 	fi
 
 	msger -n "|| Cloning Anykernel ||"
-	git clone --depth=1 https://github.com/Eagle-Projekt/AnyKernel3 AnyKernel3
+	git clone --depth=1 https://github.com/Dwyor-tmx/AnyKernel3-680 AnyKernel3
 
 	if [ $BUILD_DTBO = 1 ]
 	then
