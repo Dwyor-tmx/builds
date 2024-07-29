@@ -64,8 +64,8 @@ fi
 
 # Build Author
 # Take care, it should be a universal and most probably, case-sensitive
-AUTHOR="sltn"
-HOSTR="EagleProject"
+AUTHOR="android"
+HOSTR="build"
 
 # Architecture
 ARCH=arm64
